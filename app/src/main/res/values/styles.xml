@@ -1,0 +1,22 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="AppTheme.Activity.Translucent.NoActionBar">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@android:color/white</item>
+		<item name="colorPrimaryDark">@android:color/white</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+
+	<style name="AppTheme.Activity.Translucent.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+		<item name="colorPrimaryDark">@android:color/white</item>
+		<!-- 设置背景透明，右滑时才能看到上一个界面，否则会看到黑屏效果-->
+		<item name="android:windowIsTranslucent">false</item>
+		<item name="android:windowDisablePreview">true</item>
+		<item name="background">@android:color/white</item>
+	</style>
+
+
+</resources>

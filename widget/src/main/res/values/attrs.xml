@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="MProgressBar">
+		<!--进度条的最底层颜色-->
+		<attr name="mProgressBar_background_color" format="color"/>
+		<!--进度条的进度的颜色-->
+		<attr name="mProgressBar_progress_background_color" format="color"/>
+		<!--进度条的边框颜色-->
+		<attr name="mProgressBar_stroke" format="dimension"/>
+		<!--进度条的圆角-->
+		<attr name="mProgressBar_corners" format="dimension"/>
+		<!--进度条的目标值-->
+		<attr name="mProgressBar_currentSize" format="integer"/>
+		<!--进度条的最大值-->
+		<attr name="mProgressBar_totalSize" format="integer"/>
+		<!--是否显示进度条的进度值-->
+		<attr name="mProgressBar_isShowContent" format="boolean"/>
+		<!--进度条的进度值的颜色-->
+		<attr name="mProgressBar_content_textColor" format="color"/>
+		<!--进度条的进度值的字体大小-->
+		<attr name="mProgressBar_content_textSize" format="dimension"/>
+		<!--进度条内容的样式-->
+		<attr name="mProgressBar_content_textStyle">
+			<enum name="percent" value="100"/>
+			<enum name="ratio" value="101"/>
+		</attr>
+	</declare-styleable>
+
+	<declare-styleable name="TitleView">
+		<!--标题的返回按钮图标-->
+		<attr name="mTitleView_backIcon" format="reference"/>
+		<!--是否显示标题的返回按钮-->
+		<attr name="mTitleView_isShowBackIcon" format="boolean"/>
+		<!--标题内容-->
+		<attr name="mTitleView_titleContent" format="string"/>
+		<!--标题内容的位置-->
+		<attr name="mTitleView_titleContent_gravity">
+			<enum name="left" value="10000"/>
+			<enum name="center" value="10001"/>
+		</attr>
+		<!--标题内容的字体大小-->
+		<attr name="mTitleView_titleTextSize" format="dimension"/>
+		<!--标题内容的字体颜色-->
+		<attr name="mTitleView_titleTextColor" format="color"/>
+		<!--标题的背景颜色-->
+		<attr name="mTitleView_titleBackgroundColor" format="color"/>
+		<!--标题的菜单按钮-->
+		<attr name="mTitleView_menuIcon" format="reference"/>
+		<!--标题右边的菜单文字-->
+		<attr name="mTitleView_menuText" format="string"/>
+		<!--标题右边的菜单文字大小-->
+		<attr name="mTitleView_menuTextSize" format="dimension"/>
+		<!--标题右边的菜单文字颜色-->
+		<attr name="mTitleView_menuTextColor" format="color"/>
+		<!--标题底部的线的高度-->
+		<attr name="mTitleView_bottomLineHeight" format="dimension"/>
+		<!--标题底部的线的颜色-->
+		<attr name="mTitleView_bottomLineColor" format="color"/>
+		<!--标题底部的线的颜色-->
+		<attr name="mTitleView_statusBarColor" format="color"/>
+		<!--标题是否包含状态栏的高度-->
+		<attr name="mTitleView_withStatusBarHeight" format="boolean"/>
+
+	</declare-styleable>
+
+	<declare-styleable name="MImageView">
+		<attr name="mImageView_corners" format="dimension"/>
+		<attr name="mImageView_stroke" format="dimension"/>
+		<attr name="mImageView_stroke_color" format="color"/>
+	</declare-styleable>
+
+</resources>
